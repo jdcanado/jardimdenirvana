@@ -1,5 +1,5 @@
 {
-  "name": "financeirojdc",
+  "name": "jardimdenirvana",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -55,5 +55,5 @@
     "not ie <= 8"
   ],
   "keywords": [],
-  "description": "Aplicação para gerenciar equipes de futebol entre amigos."
+  "description": "Landing page para a empresa Jardim de Nirvana."
 }
