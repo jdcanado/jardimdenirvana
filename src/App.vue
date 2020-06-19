@@ -1,11 +1,11 @@
 <template>
 	<div id="app">
 		<v-app id="inspire">
-			<v-app-bar color="white" height="100">
-				<v-avatar height="110" width="110">
-					<img src="https://github.com/jdcanado/jardimdenirvana/raw/master/src/assets/logo_jardim_de_nirvana_nome_circular_sem_fundo.png"/>
+			<v-app-bar color="white" height="125" absolute>
+				<v-avatar height="125" width="125">
+					<img aspect-ratio="2" src="https://github.com/jdcanado/jardimdenirvana/raw/master/src/assets/logo_jardim_de_nirvana_nome_circular_sem_fundo.png"/>
 				</v-avatar>
-				<v-toolbar-title>Jardim de Nirvana Atelier</v-toolbar-title>
+				<v-toolbar-title style="font-family: 'Clicker Script', cursive;font-size: 36px">Jardim de Nirvana Atelier</v-toolbar-title>
 			</v-app-bar>
 
 			<v-content>
@@ -95,12 +95,14 @@ export default {
 </script>
 
 <style>
-#app {
-	font-family: "Avenir", Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 0px;
-}
+	#app {
+		font-family: "Avenir", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-align: center;
+		color: #2c3e50;
+		margin-top: 0px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 </style>

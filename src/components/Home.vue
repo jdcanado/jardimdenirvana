@@ -2,9 +2,8 @@
   <div app>
     <v-layout id="home" row wrap>
       <v-flex xs12>
-        <v-img
+        <v-parallax
           src="https://raw.githubusercontent.com/jdcanado/jardimdenirvana/master/src/assets/jardimdenirvana_principal.jpg"
-          aspect-ratio="2.5"
         />
       </v-flex>
     </v-layout>
