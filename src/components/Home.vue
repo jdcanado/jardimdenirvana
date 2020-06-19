@@ -3,7 +3,7 @@
     <v-layout id="home" row wrap>
       <v-flex xs12>
         <v-img
-          src="https://raw.githubusercontent.com/jdcanado/financeirojdc/master/src/assets/logo_jdcanado_contorno_3d_3.png"
+          src="https://raw.githubusercontent.com/jdcanado/jardimdenirvana/master/src/assets/jardimdenirvana_principal.jpg"
           aspect-ratio="2.5"
         />
       </v-flex>
