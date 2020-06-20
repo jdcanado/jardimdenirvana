@@ -1,11 +1,19 @@
 <template>
 	<div id="app">
 		<v-app id="inspire">
-			<v-app-bar color="white" height="125" absolute>
-				<v-avatar height="125" width="125">
-					<img aspect-ratio="2" src="https://github.com/jdcanado/jardimdenirvana/raw/master/src/assets/logo_jardim_de_nirvana_nome_circular_sem_fundo.png"/>
-				</v-avatar>
-				<v-toolbar-title style="font-family: 'Clicker Script', cursive;font-size: 36px">Jardim de Nirvana Atelier</v-toolbar-title>
+			<v-app-bar color="white" height="200" prominent>
+				<v-container>
+					<v-row no-gutters>
+						<v-col sm="1"  xs="12">	
+							<v-avatar class="mt-sm-3" height="130" width="130">
+								<img aspect-ratio="2" src="https://github.com/jdcanado/jardimdenirvana/raw/master/src/assets/logo_jardim_de_nirvana_nome_circular_sem_fundo.png"/>
+							</v-avatar>
+						</v-col>
+						<v-col sm="4">
+							<v-toolbar-title class="mt-sm-10 ml-sm-10" style="font-family: 'Clicker Script', cursive;font-size: 36px">Jardim de Nirvana Atelier</v-toolbar-title>
+						</v-col>
+					</v-row>
+				</v-container>
 			</v-app-bar>
 
 			<v-content>
